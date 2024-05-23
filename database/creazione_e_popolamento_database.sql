@@ -247,6 +247,7 @@ INSERT INTO Recensione (codiceProdotto, emailCliente, votazione, testo, dataRece
 VALUES (1014, 'cr7@gmail.com', 8, NULL, current_date());
 INSERT INTO Recensione (codiceProdotto, emailCliente, votazione, testo, dataRecensione)
 VALUES (1003, 'mariorossi@gmail.com', 9, NULL, current_date());
+aaaaa
 
 /* preferiti data */
 INSERT INTO Preferiti (codiceProdotto, emailCliente)
