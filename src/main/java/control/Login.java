@@ -102,6 +102,7 @@ public class Login extends HttpServlet {
 		MessageDigest md = null;
 		try {
 			md = MessageDigest.getInstance("MD5");
+			
 		}
 		catch (Exception e) {
 			e.printStackTrace();

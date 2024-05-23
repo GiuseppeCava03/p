@@ -5,7 +5,12 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Header</title>
-<link rel="stylesheet" href="./css/header.css"> 
+<link rel="stylesheet" href="./css/header.css">
+
+	<% 
+        response.setHeader("Content-Security-Policy", "frame-ancestors 'self';");
+        response.setHeader("X-Frame-Options", "SAMEORIGIN");
+    %>
 </head>
 <body>
 	<header>
