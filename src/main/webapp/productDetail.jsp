@@ -76,6 +76,7 @@
 					Double tot = prodotto.getPrezzo() + prodotto.getSpedizione();
 					DecimalFormat df = new DecimalFormat("0.00");
 					String prezzoTot = df.format(tot);
+					
 				%>
 				<h2><%=prezzoTot%>&euro;</h2>
 				<a href="CartControl?action=aggiungi&codice=<%=prodotto.getCodice()%>"><button class="buy-btn" style="margin-bottom: 20px; cursor: pointer">Aggiungi al carrello</button></a>
